@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalYearProject
+</name>
+</assembly>
+<members>
+<member name="T:FinalYearProject.GrandStoreDataSet.MaterialDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSet.MaterialRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSet.MaterialRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSetTableAdapters.MaterialTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalYearProject.GrandStoreDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalYearProject.GrandStoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalYearProject.GrandStoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalYearProject.GrandStoreDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalYearProject.GrandStoreDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.account">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.delete_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.delete_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.delete_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.document_add_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.document_add_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.document_add_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.gs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.history">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.import_export_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.manage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.open_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.open_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.open_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.printer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.recycle_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.recycle_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.recycle_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalYearProject.My.Resources.Resources.StockPlus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:FinalYearProject.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
